@@ -41,7 +41,8 @@ class _LoginDemoState extends State<LoginDemo> {
                     /*decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(50.0)),*/
-                    child: Image.network("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.volunteermatch.org%2Fsearch%2Forg1180457.jsp&psig=AOvVaw3z8XM1_UabSJxpcfOy6UIP&ust=1639364064901000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDF2pih3fQCFQAAAAAdAAAAABAD")),
+                    child: Image.network(
+                        "https://houstonfurniturebank.org/wp-content/uploads/2020/06/hfb-logo.png")),
               ),
             ),
             Padding(
@@ -59,7 +60,6 @@ class _LoginDemoState extends State<LoginDemo> {
                   left: 15.0, right: 15.0, top: 15, bottom: 0),
               //padding: EdgeInsets.symmetric(horizontal: 15),
               child: TextField(
-
                 obscureText: true,
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
@@ -68,8 +68,7 @@ class _LoginDemoState extends State<LoginDemo> {
               ),
             ),
             TextButton(
-              onPressed: (){
-              },
+              onPressed: () {},
               child: Text(
                 'Forgot Password',
                 style: TextStyle(color: Colors.black, fontSize: 15),
